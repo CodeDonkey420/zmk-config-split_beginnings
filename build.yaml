@@ -19,6 +19,6 @@
 ---
 include:
   - board: nice_nano
-    shield: split_beginnings
+    shield: split_beginnings_left
   - board: nice_nano
-    shield: split_beginnings
+    shield: split_beginnings_right
