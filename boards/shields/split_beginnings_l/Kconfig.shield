@@ -1,0 +1,5 @@
+config SHIELD_SPLIT_BEGINNINGS_L
+    def_bool $(shields_list_contains, split_beginnings_l)
+
+config SHIELD_SPLIT_BEGINNINGS_R
+    def_bool $(shields_list_contains, split_beginnings_r)

@@ -1,0 +1,16 @@
+if SHIELD_SPLIT_BEGINNINGS_L
+
+config ZMK_KEYBOARD_NAME
+    default "splitbeginnings"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_SPLIT_BEGINNINGS_L || SHIELD_SPLIT_BEGINNINGS_R
+
+config ZMK_SPLIT
+    default y
+
+endif
