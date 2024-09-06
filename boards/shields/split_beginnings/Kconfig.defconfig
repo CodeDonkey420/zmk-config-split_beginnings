@@ -13,10 +13,4 @@ if SHIELD_SPLIT_BEGINNINGS_L || SHIELD_SPLIT_BEGINNINGS_R
 config ZMK_SPLIT
     default y
 
-config CONFIG_ZMK_SPLIT_BLE
-    default y
-
-config CONFIG_BT
-    default y
-
 endif
