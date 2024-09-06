@@ -3,13 +3,7 @@ if SHIELD_SPLIT_BEGINNINGS_L
 config ZMK_KEYBOARD_NAME
     default "splitbeginnings"
 
-config CONFIG_ZMK_SPLIT_BLE
-    default y
-
-config CONFIG_BT
-    default y
-
-config ZMK_SPLIT_ROLE_CENTRAL
+config ZMK_SPLIT_BLE_ROLE_CENTRAL
     default y
 
 endif
@@ -20,6 +14,9 @@ config ZMK_SPLIT
     default y
 
 config CONFIG_ZMK_SPLIT_BLE
+    default y
+
+config CONFIG_BT
     default y
 
 endif
